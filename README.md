@@ -1,4 +1,4 @@
-Opauth-Facebook
+Opauth-Foursquare
 =============
 [Opauth][1] strategy for Foursquare authentication.
 
@@ -9,16 +9,14 @@ Getting started
 1. Install Opauth-Foursquare:
    ```bash
    cd path_to_opauth/Strategy
-   git clone git://github.com/uzyn/opauth-facebook.git Facebook
+   git clone git://github.com/pocket7878/opauth-foursquare.git Foursquare
    ```
 
-2. Create Facebook application at https://developers.facebook.com/apps/
-   - Remember to enter App Domains
-   - "Website with Facebook Login" must be checked, but for "Site URL", you can enter any landing URL.
+2. Create Foursquare application at https://foursquare.com/oauth/register
 
-3. Configure Opauth-Facebook strategy with at least `App ID` and `App Secret`.
+3. Configure Opauth-Foursquare strategy with at least `Client ID` and `Client Secret`.
 
-4. Direct user to `http://path_to_opauth/facebook` to authenticate
+4. Direct user to `http://path_to_opauth/foursquare` to authenticate
 
 Strategy configuration
 ----------------------
@@ -27,15 +25,13 @@ Required parameters:
 
 ```php
 <?php
-'Facebook' => array(
-	'app_id' => 'YOUR APP ID',
-	'app_secret' => 'YOUR APP SECRET'
+'Foursquare' => array(
+	'client_id' => 'YOUR CLIENT ID',
+	'client_secret' => 'YOUR CLIENT SECRET'
 )
 ```
 
-Even though `scope` is an optional configuration parameter for Opauth-Facebook, for most cases you would like to explicitly define it. It should be defined in a comma-separated string. 
-
-Refer to [Facebook Permissions Reference](https://developers.facebook.com/docs/authentication/permissions/) for list of valid permissions..
+Refer to [Connecting - foursquare](https://developer.foursquare.com/overview/auth.html).
 
 License
 ---------

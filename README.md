@@ -36,6 +36,6 @@ Refer to [Connecting - foursquare](https://developer.foursquare.com/overview/aut
 License
 ---------
 Opauth-Facebook is MIT Licensed  
-Copyright © 2012 U-Zyn Chua (http://uzyn.com)
+Copyright © 2012 Masato Sogame (Pocket7878) (http://poketo7878.dip.jp)
 
 [1]: https://github.com/uzyn/opauth

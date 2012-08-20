@@ -1,0 +1,23 @@
+{
+	"name": "opauth/forsquare",
+	"description": "Foursquare strategy for Opauth",
+	"keywords": ["authentication","auth","foursquare"],
+	"homepage": "http://opauth.org",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Masato Sogame (Pocket7878)",
+			"email": "poketo7878@gmail.com",
+			"homepage": "http://poketo7878.dip.jp"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"opauth/opauth": ">=0.2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "."
+		}
+	}
+}

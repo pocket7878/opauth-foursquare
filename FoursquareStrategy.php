@@ -106,7 +106,7 @@ class FoursquareStrategy extends OpauthStrategy{
 	}
 	
 	/**
-	 * Queries Facebook Graph API for user info
+	 * Queries Foursquare API for user info
 	 *
 	 * @param string $access_token 
 	 * @return array Parsed JSON results
